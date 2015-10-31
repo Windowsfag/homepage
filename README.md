@@ -1,34 +1,11 @@
-Homepage
-====
+# Tomoko-Homepage
 
-![alt tag](screenshots/preview.png "Homepage preview")
+![alt tag](screenshot.JPG "Homepage preview")
+**Live Demo: [Here] (http://windowsfag.github.io/Tomoko-Homepage/) NOTE: For whatever reason the background image wont load in the live demo. Or atleast it wont in Pale Moon.**
 
-**Live Demo: [Dark](http://gokoururi.github.io/homepage/) - [Light](http://gokoururi.github.io/homepage/index-light.html)**
+A fork of gokoururi homepage for anybody who feels like using something broken. I settled on a theme of Tomoko Kuroki for literally no reason at all. The main differnece between this and Gokoururi's homepage is the Tomoko theme and the wallpaper background.
 
-This repository contains a custom homepage made using html, css and javascript (jQuery). Feel free to download and modify. Comments and suggestions appreciated. Please don't expect too much.
+#Non Firefox users
+I like to dick around with the CSS by enabling effects that only appear when I launch with Chrome, so never. You can go ahead and easily delete these if you don't like them. They're all experimental and made when I'm bored.
 
-Features:
-* Flashy links
-* Flashy Slidy sublinks
-* Flashy Slidy searchbars
-* Randomly selected cute 2D girls
-* Column style links.
-* **New**: Light color theme. See [Live Demo](http://gokoururi.github.io/homepage/index-light.html)
-  * New directory structure for easier making and sharing themes.
-
-Customizing, adding mascots and themes
-----
-To change current theme, replace its name in [home.html](home.html#L15-17)
-
-To customize mascots in `ruri-dark` theme, modify the array in [themes/ruri-dark/mascots.js](themes/ruri-dark/mascots.js):
-```javascript
-var mascotList = [ "ruri1.png", "ruri2.png", "ruri3.png" ];
-```
-
-To make new theme, you can copy an existing one, and change images and [colors.css](themes/ruri-dark/colors.css) as you like.  
-Please note that entries in your theme's [mascots.js](themes/ruri-dark/mascots.js) should match with contents of [mascots/](themes/ruri-dark/mascots/) directory.  
-(Of course, above links use `ruri-dark` theme only as an example.)
-
-Disclaimer
-----
-Images of cute girls were made by Anons from /w/ and stolen from their [Google Drive](https://drive.google.com/folderview?id=0B_VmbVyD4eT3N1VUbGN4Wjd5OVE).
+Feel free to change, fork, edit, redistribute, sell on the black market or whatever.
